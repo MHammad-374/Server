@@ -42,6 +42,24 @@ const products = [
     },
 ]
 
+const users = [
+    {
+        id: 1,
+        name: "John",
+        emial: "john@example.com"
+    },
+    {
+        id: 2,
+        name: "Emma",
+        emial: "emma@example.com"
+    },
+    {
+        id: 3,
+        name: "Max",
+        emial: "max@example.com"
+    },
+]
+
 app.get("/", (req, res) => {
     res.send("Hello Backend")
 })
