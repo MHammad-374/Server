@@ -66,6 +66,9 @@ app.get("/", (req, res) => {
 app.get("/products", (req, res) => {
     res.status(200).json(products)
 })
+app.get("/users", (req, res) => {
+    res.status(200).json(users)
+})
 
 
 const PORT = 3000
